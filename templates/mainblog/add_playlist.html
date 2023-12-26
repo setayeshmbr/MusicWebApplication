@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 
 <!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
@@ -17,19 +18,19 @@
     <meta name="author" content="kamleshyadav">
     <meta name="MobileOptimized" content="320">
     <!--Start Style -->
-    <link rel="stylesheet" type="text/css" href="css/fonts.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="js/plugins/swiper/css/swiper.min.css">
-    <link rel="stylesheet" type="text/css" href="js/plugins/nice_select/nice-select.css">
-    <link rel="stylesheet" type="text/css" href="js/plugins/player/volume.css">
-	<link rel="stylesheet" type="text/css" href="js/plugins/scroll/jquery.mCustomScrollbar.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'mainblog/css/fonts.css' %} ">
+    <link rel="stylesheet" type="text/css" href="{% static 'mainblog/css/bootstrap.css' %} ">
+    <link rel="stylesheet" type="text/css" href="{% static 'mainblog/css/font-awesome.min.css' %} ">
+    <link rel="stylesheet" type="text/css" href="{% static 'mainblog/js/plugins/swiper/css/swiper.min.css' %} ">
+    <link rel="stylesheet" type="text/css" href="{% static 'mainblog/js/plugins/nice_select/nice-select.css' %} ">
+    <link rel="stylesheet" type="text/css" href="{% static 'mainblog/js/plugins/player/volume.css' %} ">
+	<link rel="stylesheet" type="text/css" href="{% static 'mainblog/js/plugins/scroll/jquery.mCustomScrollbar.css' %} ">
+    <link rel="stylesheet" type="text/css" href="{% static 'mainblog/css/style.css' %} ">
     <!-- Favicon Link -->
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <link rel="shortcut icon" type="image/png" href="{% static 'mainblog/images/favicon.png' %}">
 </head>
 <body>
-	<!----Loader---->
+	<!--Loader-->
 	<div class="ms_inner_loader">
 		<div class="ms_loader">
 			<div class="ms_bars">
@@ -46,9 +47,9 @@
 			</div>
 		</div>
 	</div>
-    <!----Main Wrapper Start---->
+    <!--Main Wrapper Start-->
     <div class="ms_main_wrapper">
-        <!---Side Menu Start--->
+        <!--Side Menu Start-->
         <div class="ms_sidemenu_wrapper">
             <div class="ms_nav_close">
                 <i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -1131,7 +1132,7 @@
                 </div>
             </div>
         </div>
-        <!----Login Popup Start---->
+        <!--Login Popup Start-->
         <div id="myModal1" class="modal  centered-modal" role="dialog">
             <div class="modal-dialog login_dialog">
                 <!-- Modal content-->
@@ -1266,7 +1267,7 @@
             </div>
         </div>
     </div>
-	<!----Queue Clear Model ---->
+	<!--Queue Clear Model -->
 	<div class="ms_clear_modal">
 		<div id="clear_modal" class="modal  centered-modal" role="dialog">
             <div class="modal-dialog">
@@ -1286,7 +1287,7 @@
             </div>
         </div>
 	</div>
-	<!----Queue Save Modal---->
+	<!--Queue Save Modal-->
 	<div class="ms_save_modal">
 		<div id="save_modal" class="modal  centered-modal" role="dialog">
             <div class="modal-dialog">
@@ -1321,16 +1322,16 @@
         </div>
 	</div>
     <!--Main js file Style-->
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/plugins/swiper/js/swiper.min.js"></script>
-    <script type="text/javascript" src="js/plugins/player/jplayer.playlist.min.js"></script>
-    <script type="text/javascript" src="js/plugins/player/jquery.jplayer.min.js"></script>
-    <script type="text/javascript" src="js/plugins/player/audio-player.js"></script>
-    <script type="text/javascript" src="js/plugins/player/volume.js"></script>
-    <script type="text/javascript" src="js/plugins/nice_select/jquery.nice-select.min.js"></script>
-	<script type="text/javascript" src="js/plugins/scroll/jquery.mCustomScrollbar.js"></script>
-    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="{% static 'mainblog/js/jquery.js' %} "></script>
+    <script type="text/javascript" src="{% static 'mainblog/js/bootstrap.min.js' %} "></script>
+    <script type="text/javascript" src="{% static 'mainblog/js/plugins/swiper/js/swiper.min.js' %} "></script>
+    <script type="text/javascript" src="{% static 'mainblog/js/plugins/player/jplayer.playlist.min.js' %} "></script>
+    <script type="text/javascript" src="{% static 'mainblog/js/plugins/player/jquery.jplayer.min.js' %} "></script>
+    <script type="text/javascript" src="{% static 'mainblog/js/plugins/player/audio-player.js' %} "></script>
+    <script type="text/javascript" src="{% static 'mainblog/js/plugins/player/volume.js' %} "></script>
+    <script type="text/javascript" src="{% static 'mainblog/js/plugins/nice_select/jquery.nice-select.min.js' %} "></script>
+	<script type="text/javascript" src="{% static 'mainblog/js/plugins/scroll/jquery.mCustomScrollbar.js' %} "></script>
+    <script type="text/javascript" src="{% static 'mainblog/js/custom.js' %} "></script>
 </body>
 
 </html>
